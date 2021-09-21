@@ -2,6 +2,9 @@
   "name": "assign1",
   "version": "0.0.0",
   "scripts": {
+    "gd": "ng generate directive",
+    "gp": "ng generate pipe",
+    "gc": "ng generate component",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
