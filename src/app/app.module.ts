@@ -7,6 +7,8 @@ import { Pipe1Pipe } from './pipe1.pipe';
 import { Directive1Directive } from './directive1.directive';
 import { ContentCardComponent } from './content-card/content-card.component';
 import { ContentListComponent } from './content-list/content-list.component';
+import { FPSPipe } from './fps.pipe';
+import { BattleRoyalePipe } from './battle-royale.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ContentListComponent } from './content-list/content-list.component';
     Pipe1Pipe,
     Directive1Directive,
     ContentCardComponent,
-    ContentListComponent
+    ContentListComponent,
+    FPSPipe,
+    BattleRoyalePipe
   ],
   imports: [
     BrowserModule

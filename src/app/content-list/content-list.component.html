@@ -1,11 +1,20 @@
+
 <img class="poster-image" [src]="content.imageURL"  (click)="this.consoleprint(content.id)"/>
+
+
 
 <div class="author">
   {{content.author}}
 </div>
-<div class="type">
+
+<div *ngIf="content.type === 'FPS';   " class="typeFPS">
   {{content.type}}
 </div>
+
+<div *ngIf="content.type === 'Battle Royale';" class="typeBR">
+  {{content.type}}
+</div>
+
 <div class="title">
   {{content.title}}
 </div>

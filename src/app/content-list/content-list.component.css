@@ -1,18 +1,27 @@
+
 :host{
   background-color:white;
   display: block;
   width: 300px;
   height: 350px;
-  border: 1px solid #000000;
   padding-inline: 10px;
   text-align: center;
+  border: 1px solid black;
+
 }
-:host.is-last{
-border: 2px solid black;
-}
+.typeFPS{
+   border: 2px solid red;
+ }
+
+
 .poster-image{
   height: 200px;
   width: 300px;
   margin: 0 auto;
   display: inline-block;
+}
+
+
+.typeBR{
+  border: 2px solid blue;
 }
