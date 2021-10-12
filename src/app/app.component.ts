@@ -21,7 +21,6 @@ export class AppComponent {
   },
     {
       id: 2,
-      imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/WoW_Box_Art1.jpg/220px-WoW_Box_Art1.jpg",
       type: "Battle Royale",
       author: "DayBreak",
       title: "H1Z1",
@@ -31,7 +30,6 @@ export class AppComponent {
 
     {
       id: 3,
-      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/FortniteLogo.svg/250px-FortniteLogo.svg.png",
       type: "Battle Royale",
       author: "Epic Games",
       title: "Fortnite",
@@ -40,7 +38,6 @@ export class AppComponent {
     },
     {
       id: 4,
-      imgUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Apex_legends_cover.jpg/220px-Apex_legends_cover.jpg",
       type: "Battle Royale",
       author: "Respawn",
       title: "Apex Legends",

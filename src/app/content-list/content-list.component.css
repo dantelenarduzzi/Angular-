@@ -3,7 +3,7 @@
   background-color:white;
   display: block;
   width: 300px;
-  height: 350px;
+  height: 500px;
   padding-inline: 10px;
   text-align: center;
   border: 1px solid black;
@@ -15,8 +15,8 @@
 
 
 .poster-image{
-  height: 200px;
-  width: 300px;
+  height: 100px;
+  width: 200px;
   margin: 0 auto;
   display: inline-block;
 }

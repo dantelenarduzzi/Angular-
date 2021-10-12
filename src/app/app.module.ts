@@ -9,6 +9,7 @@ import { ContentCardComponent } from './content-card/content-card.component';
 import { ContentListComponent } from './content-list/content-list.component';
 import { FPSPipe } from './fps.pipe';
 import { BattleRoyalePipe } from './battle-royale.pipe';
+import { HoverStyleDirective } from './hover-style.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BattleRoyalePipe } from './battle-royale.pipe';
     ContentCardComponent,
     ContentListComponent,
     FPSPipe,
-    BattleRoyalePipe
+    BattleRoyalePipe,
+    HoverStyleDirective
   ],
   imports: [
     BrowserModule

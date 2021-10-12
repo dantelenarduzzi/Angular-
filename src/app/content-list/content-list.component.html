@@ -1,7 +1,7 @@
 
-<img class="poster-image" [src]="content.imageURL"  (click)="this.consoleprint(content.id)"/>
+<img [src]="content.imgUrl"  (click)="this.consoleprint(content.id)"/>
 
-
+<img  *ngIf="content.imgUrl == null " src="/assets/defaultimage.jpeg">
 
 <div class="author">
   {{content.author}}
@@ -15,7 +15,7 @@
   {{content.type}}
 </div>
 
-<div class="title">
+<div appHoverStyle class="title">
   {{content.title}}
 </div>
 <div class="body">
