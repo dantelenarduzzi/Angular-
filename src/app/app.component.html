@@ -1,6 +1,7 @@
 <!--<app-content-list *ngFor="let item of contentArray; index as i; last as isLast" [content]="item"
                   [class.is-last]="isLast" class="content-{{i}}"></app-content-list> -->
 
+<app-create-content (adddedContentEvent)="addToArray($event)"></app-create-content>
 
 <div class="enterTitle">
   Please enter a title <input value="userInput" />

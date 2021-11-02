@@ -62,8 +62,31 @@ export class AppComponent {
   }
 
   public ngOnInit(): void {
+
+
   };
 
+  addToArray(AddedContent: Content): void {
+
+    const ourPromise = new Promise((success, fail) => {
+      if (AddedContent.title && AddedContent.id && AddedContent.author && AddedContent.type && AddedContent.imgUrl && AddedContent.body){
+        this.contentArray.push(AddedContent);
+        this.contentArray = Object.assign([], this.contentArray)
+        success('It worked!');
+      }
+      else{
+        fail('it failed :(');
+      }
+    });
+    ourPromise.then(function (successResult) {
+      console.log("Success!", successResult);
+    }).catch(failResult => {
+      console.log("Failed", failResult)
+    });
+
+
+
+  }
 
   triggerAlertTitle(): void {
 
@@ -77,4 +100,6 @@ export class AppComponent {
 
 
   }
+
+
 }

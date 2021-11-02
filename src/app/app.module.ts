@@ -10,6 +10,8 @@ import { ContentListComponent } from './content-list/content-list.component';
 import { FPSPipe } from './fps.pipe';
 import { BattleRoyalePipe } from './battle-royale.pipe';
 import { HoverStyleDirective } from './hover-style.directive';
+import { CreateContentComponent } from './create-content/create-content.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { HoverStyleDirective } from './hover-style.directive';
     ContentListComponent,
     FPSPipe,
     BattleRoyalePipe,
-    HoverStyleDirective
+    HoverStyleDirective,
+    CreateContentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

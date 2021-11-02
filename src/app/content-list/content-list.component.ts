@@ -13,7 +13,7 @@ export class ContentListComponent implements OnInit {
   }
   constructor() {
   }
-
+  // I Made a mistake early on in my assignments so if youre looking for something here its probably in app.component.ts
   ngOnInit(): void {
   }
 
